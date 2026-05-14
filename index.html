@@ -178,17 +178,17 @@
                 <i data-lucide="menu" class="w-8 h-8"></i>
             </button>
         </div>
-        
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="fixed inset-0 bg-lux-light/95 backdrop-blur-xl z-40 hidden flex-col items-center justify-center space-y-8">
-            <a href="#about" class="text-2xl font-serif text-lux-forest mobile-link">Βιογραφικό</a>
-            <a href="#services" class="text-2xl font-serif text-lux-forest mobile-link">Υπηρεσίες</a>
-            <a href="#philosophy" class="text-2xl font-serif text-lux-forest mobile-link">Φιλοσοφία</a>
-            <a href="#space" class="text-2xl font-serif text-lux-forest mobile-link">Χώρος</a>
-            <a href="#reviews" class="text-2xl font-serif text-lux-forest mobile-link">Αξιολογήσεις</a>
-            <a href="#contact" class="px-10 py-4 bg-lux-forest text-white text-lg tracking-widest uppercase mobile-link mt-8">Κλειστε Ραντεβου</a>
-        </div>
     </nav>
+    
+    <!-- Mobile Menu (Moved outside of <nav> to fix backdrop-filter z-index bug) -->
+    <div id="mobile-menu" class="fixed inset-0 bg-lux-light/95 backdrop-blur-xl z-40 hidden flex-col items-center justify-center space-y-8">
+        <a href="#about" class="text-2xl font-serif text-lux-forest mobile-link">Βιογραφικό</a>
+        <a href="#services" class="text-2xl font-serif text-lux-forest mobile-link">Υπηρεσίες</a>
+        <a href="#philosophy" class="text-2xl font-serif text-lux-forest mobile-link">Φιλοσοφία</a>
+        <a href="#space" class="text-2xl font-serif text-lux-forest mobile-link">Χώρος</a>
+        <a href="#reviews" class="text-2xl font-serif text-lux-forest mobile-link">Αξιολογήσεις</a>
+        <a href="#contact" class="px-10 py-4 bg-lux-forest text-white text-lg tracking-widest uppercase mobile-link mt-8">Κλειστε Ραντεβου</a>
+    </div>
 
     <!-- Hero Section -->
     <section class="relative min-h-[100vh] flex items-center justify-start overflow-hidden pt-20">
