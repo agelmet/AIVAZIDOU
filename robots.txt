@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /index.backup
 
 Sitemap: https://aivazidou-psychologos.gr/sitemap.xml
